@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-23T11:15:40 IST" name="Default suite" finished-at="2024-01-23T11:16:35 IST" duration-ms="54351">
+    <groups>
+    </groups>
+    <test started-at="2024-01-23T11:15:40 IST" name="Default test" finished-at="2024-01-23T11:16:35 IST" duration-ms="54351">
+      <class name="com.orangeHRM.testCases.Recruitment">
+        <test-method is-config="true" signature="Login()[pri:0, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:15:40 IST" name="Login" finished-at="2024-01-23T11:15:55 IST" duration-ms="14360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="NavigateToRecruitment()[pri:1, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:15:55 IST" name="NavigateToRecruitment" finished-at="2024-01-23T11:15:56 IST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToRecruitment -->
+        <test-method signature="NavigateToVacancies()[pri:2, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:15:56 IST" name="NavigateToVacancies" finished-at="2024-01-23T11:15:58 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToVacancies -->
+        <test-method signature="NavigateToAddVacancy()[pri:3, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:15:58 IST" name="NavigateToAddVacancy" finished-at="2024-01-23T11:16:00 IST" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAddVacancy -->
+        <test-method signature="AddVacancy()[pri:4, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:00 IST" name="AddVacancy" finished-at="2024-01-23T11:16:03 IST" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddVacancy -->
+        <test-method signature="AddAttachment()[pri:5, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:03 IST" name="AddAttachment" finished-at="2024-01-23T11:16:18 IST" duration-ms="15481" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at org.junit.Assert.assertFalse(Assert.java:75)
+at com.orangeHRM.testCases.Recruitment.AddAttachment(Recruitment.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAttachment -->
+        <test-method signature="NavigateToBack()[pri:6, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:18 IST" name="NavigateToBack" finished-at="2024-01-23T11:16:26 IST" duration-ms="8276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToBack -->
+        <test-method signature="SearchVacancies()[pri:7, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:26 IST" name="SearchVacancies" finished-at="2024-01-23T11:16:27 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchVacancies -->
+        <test-method signature="VerifyAddedVacancy()[pri:8, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:27 IST" name="VerifyAddedVacancy" finished-at="2024-01-23T11:16:27 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddedVacancy -->
+        <test-method signature="DeleteVacancy()[pri:9, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:27 IST" name="DeleteVacancy" finished-at="2024-01-23T11:16:28 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVacancy -->
+        <test-method is-config="true" signature="END()[pri:0, instance:com.orangeHRM.testCases.Recruitment@47fbc56]" started-at="2024-01-23T11:16:28 IST" name="END" finished-at="2024-01-23T11:16:35 IST" duration-ms="6682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- END -->
+      </class> <!-- com.orangeHRM.testCases.Recruitment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
